@@ -1,5 +1,5 @@
 import streamlit as st
-import atv_logs.imc as imc
+import imc
 
 st.title('meu app lindo')
 st.caption('feito com streamlit.')
@@ -29,4 +29,5 @@ if calcular:
 
 
 with st.sidebar:
+
     st.subheader('Programas')
